@@ -1,0 +1,45 @@
+# Data
+data/raw/
+data/knowledge_base.jsonl
+data/ofsi_sanctions.jsonl
+data/manifest.json
+data/downloaded_urls.json
+data/failed_urls.jsonl
+data/*.prev.jsonl
+data/_cache/
+data/_quarantine/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.venv.bak/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Ollama cache
+ollama_cache/
