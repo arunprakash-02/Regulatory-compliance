@@ -1,0 +1,16 @@
+{
+  "obligation_id": "string",
+  "regulation": "string",
+  "jurisdiction": "string",
+  "affected_business_line": "string",
+  "customer_segment": "string",
+  "product": "string",
+  "corridor": "string",
+  "compliance_cost": "float",
+  "revenue_at_risk": "float",
+  "cash_outflow": "float",
+  "provision": "float",
+  "capital_impact": "float",
+  "roe_impact": "float",
+  "verification_status": "string"
+}

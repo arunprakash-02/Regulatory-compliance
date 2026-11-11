@@ -1,0 +1,12 @@
+{"type": "positive", "query": "What are the customer due diligence requirements under the AML Regulation?", "expected_celex": "32024R1624", "expected_article": "Article 19"}
+{"type": "positive", "query": "How does the EU AI Act define high-risk systems?", "expected_celex": "32024R1689", "expected_article": "Article 6"}
+{"type": "positive", "query": "What are the data breach notification requirements under GDPR?", "expected_celex": "32016R0679", "expected_article": "Article 33"}
+{"type": "positive", "query": "What are the capital requirements under CRR3?", "expected_celex": "32024R1623", "expected_article": "Article 84"}
+{"type": "positive", "query": "What obligations does the AML Directive impose on Member States?", "expected_celex": "32024L1640", "expected_article": "Article 9"}
+{"type": "negative", "query": "What is the capital of France?"}
+{"type": "negative", "query": "Who won the 2022 World Cup?"}
+{"type": "negative", "query": "What is the tax rate in Japan?"}
+{"type": "obligation", "text": "Member States shall ensure that obliged entities apply customer due diligence measures. The entity must not establish a business relationship if it cannot comply.", "expected_obligations": ["shall ensure", "must not establish"], "exhaustive": false}
+{"type": "deadline", "text": "Financial entities shall report the incident within 24 hours. The final report shall be submitted by 31 December 2026.", "expected_deadlines": ["within 24 hours", "by 31 December 2026"], "exhaustive": true}
+{"type": "risk", "text": "Providers of high-risk AI systems shall register in the EU database.", "expected_risk_tier": "high"}
+{"type": "applicability", "query": "Does the regulation apply in June 2024?", "query_date": "2024-06-01", "effective_date": "2024-07-01", "expected_applicable": false}
